@@ -1,0 +1,262 @@
+@media (max-width: 992px) {
+  .section {
+    padding: 5rem 0 2rem;
+  }
+
+  /*@@@@@@@@@@@@@@ ABOUT @@@@@@@@@@@@@@*/
+
+  .about__container {
+    gap: 3rem;
+  }
+
+  .about__title {
+    margin-bottom: 1rem;
+  }
+
+  .about__description {
+    margin-bottom: 1rem;
+  }
+
+  /*@@@@@@@@@@@@@@ FEATURES @@@@@@@@@@@@@@*/
+
+  .features__map {
+    overflow: hidden;
+  }
+
+  /*@@@@@@@@@@@@@@ FEATURED @@@@@@@@@@@@@@*/
+  .featured .container {
+    /* for layout of cards when we click filters button */
+    max-width: 710px;
+  }
+
+  .featured__container {
+    gap: 2rem;
+  }
+
+  .featured__card {
+    width: 215px;
+  }
+}
+
+@media (max-width: 765px) {
+  .nav__toggle,
+  .nav__close {
+    display: inline-flex;
+    color: var(--title-color);
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+
+  .nav__menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100%;
+    background: hsla(0, 0%, 0%, 0.5);
+    backdrop-filter: blur(20px);
+
+    display: grid;
+    place-items: center;
+
+    transition: 0.5s;
+  }
+
+  .nav__list {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav__link {
+    text-transform: uppercase;
+    color: var(--title-color);
+    font-size: 1.1rem;
+  }
+
+  .nav__close {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    font-size: 2rem;
+  }
+
+  /* Show menu */
+  .show-menu {
+    right: 0;
+  }
+
+  /*@@@@@@@@@@@@@@ HOME @@@@@@@@@@@@@@*/
+  .home__shape-top {
+    width: 400px;
+    height: 400px;
+    top: -7rem;
+    left: -7rem;
+  }
+
+  .home__shape-bottom {
+    width: 250px;
+    height: 250px;
+    bottom: 0;
+    right: -7rem;
+  }
+
+  /*@@@@@@@@@@@@@@ ABOUT @@@@@@@@@@@@@@*/
+  .about__container {
+    grid-template-columns: 1fr;
+    gap: 5rem;
+  }
+
+  .about__title {
+    margin-bottom: 2rem;
+  }
+
+  .about__description {
+    margin-bottom: 2rem;
+  }
+
+  /*@@@@@@@@@@@@@@ FEATURED @@@@@@@@@@@@@@*/
+
+  .featured .container {
+    /* for layout of cards when we click filters button */
+    max-width: 510px;
+  }
+
+  .featured__container {
+    grid-template-columns: repeat(2, max-content);
+  }
+
+  .featured__card {
+    width: 240px;
+  }
+
+  /*@@@@@@@@@@@@@@ OFFER @@@@@@@@@@@@@@*/
+
+  .offer__container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 5rem;
+
+    position: relative;
+  }
+
+  .offer__data {
+    text-align: center;
+  }
+
+  .offer__description {
+    width: 85%;
+    margin: 0 auto 2.5rem auto;
+  }
+
+  .offer__img {
+    max-width: initial;
+    width: 500px;
+    justify-self: center;
+  }
+
+  /*@@@@@@@@@@@@@@ FOOTER @@@@@@@@@@@@@@*/
+
+  .footer__container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem 5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .section {
+    padding: 4rem 0 2rem;
+  }
+  /*@@@@@@@@@@@@@@ HOME @@@@@@@@@@@@@@*/
+
+  .home__container {
+    padding-top: 6rem;
+    gap: 1.5rem;
+  }
+
+  .home__img {
+    width: 350px;
+  }
+
+  .small-circle {
+    width: 65px;
+    height: 65px;
+  }
+
+  .big-circle {
+    width: 90px;
+    height: 90px;
+  }
+
+  /*@@@@@@@@@@@@@@ POPULAR @@@@@@@@@@@@@@*/
+  .popular__card {
+    width: 250px;
+  }
+
+  .popular__img {
+    width: 180px;
+  }
+
+  /*@@@@@@@@@@@@@@ FEATURES @@@@@@@@@@@@@@*/
+
+  .features__car {
+    top: 3rem;
+    width: 120px;
+  }
+
+  .features__card {
+    padding: 0.5rem 1rem;
+    width: 110px;
+  }
+
+  .features__card-top {
+    top: 3rem;
+  }
+  .features__card-middle {
+    top: 7rem;
+  }
+  .features__card-bottom {
+    bottom: 2rem;
+  }
+
+  /*@@@@@@@@@@@@@@ FEATURED @@@@@@@@@@@@@@*/
+
+  .featured__filters {
+    gap: 1rem;
+  }
+
+  .featured__container {
+    grid-template-columns: 300px;
+    justify-content: center;
+  }
+
+  .featured__card {
+    width: initial;
+  }
+
+  /*@@@@@@@@@@@@@@ OFFER @@@@@@@@@@@@@@*/
+
+  .offer__container {
+    row-gap: 1rem;
+  }
+
+  .offer__description {
+    width: initial;
+  }
+
+  .offer__img {
+    position: absolute;
+    right: -5rem;
+    bottom: 0;
+    width: 400px;
+  }
+
+  /*@@@@@@@@@@@@@@ FOOTER @@@@@@@@@@@@@@*/
+
+  .footer__container {
+    grid-template-columns: 1fr;
+  }
+
+  .footer__copy {
+    margin-top: 5rem;
+  }
+}

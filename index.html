@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- @@@@@@@@@@@@@@@ FAVICON @@@@@@@@@@@@@@@ -->
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!-- @@@@@@@@@@@@@@@ BOXICONS @@@@@@@@@@@@@@@ -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- @@@@@@@@@@@@@@@@@@ swiperjs.com @@@@@@@@@@@@@@@@@@ -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+
+    <!-- @@@@@@@@@@@@@@@ CSS @@@@@@@@@@@@@@@ -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <!-- @@@@@@@@@@@@@@@ RESPONSIVE @@@@@@@@@@@@@@@ -->
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+
+    <title>ELCAR</title>
+  </head>
+
+  <body>
+    <!--@@@@@@@@@@@@@@@@@@ PRELOADER @@@@@@@@@@@@@@@@@@-->
+    <div class="preloader" id="preloader">
+      <img src="./assets/img/preloader.gif" alt="" class="preloader__gif" />
+    </div>
+
+    <!--@@@@@@@@@@@@@@@ HEADER @@@@@@@@@@@@@@@-->
+    <header class="header" id="header">
+      <div class="container">
+        <nav class="nav">
+          <a href="#" class="nav__logo">
+            <img src="./assets/img/favicon.png" alt="" class="nav__logo-img" />
+            ELCAR
+          </a>
+
+          <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#home" class="nav__link">Home</a>
+              </li>
+              <li class="nav__item">
+                <a href="#about" class="nav__link">About</a>
+              </li>
+              <li class="nav__item">
+                <a href="#popular" class="nav__link">Popular</a>
+              </li>
+              <li class="nav__item">
+                <a href="#featured" class="nav__link">Featured</a>
+              </li>
+            </ul>
+
+            <div class="nav__close" id="nav-close">
+              <i class="bx bx-x"></i>
+            </div>
+          </div>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="bx bx-menu-alt-right"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!--@@@@@@@@@@@@@@@ HOME @@@@@@@@@@@@@@@-->
+      <section class="home" id="home">
+        <div class="home__shape home__shape-top"></div>
+        <div class="home__shape home__shape-bottom"></div>
+
+        <div class="container">
+          <div class="home__container">
+            <div class="home__data">
+              <h1 class="home__title">Choose The Best Car</h1>
+              <h2 class="home__subtitle">Porsche Mission E</h2>
+              <span class="home__description">
+                <i class="bx bxs-zap"></i>Electric car
+              </span>
+            </div>
+
+            <img src="./assets/img/home.png" alt="" class="home__img" />
+
+            <div class="home__group">
+              <div class="home__group-box">
+                <i class="bx bxs-thermometer home__group-icon"></i>
+                <span class="home__group-number">24°</span>
+                <span class="home__group-name">TEMPERATURE</span>
+              </div>
+              <div class="home__group-box">
+                <i class="bx bx-tachometer home__group-icon"></i>
+                <span class="home__group-number">873</span>
+                <span class="home__group-name">MILEAGE</span>
+              </div>
+              <div class="home__group-box">
+                <i class="bx bxs-zap home__group-icon"></i>
+                <span class="home__group-number">94%</span>
+                <span class="home__group-name">BATTERY</span>
+              </div>
+            </div>
+
+            <a href="#about" class="start-button">
+              <div class="big-circle">
+                <div class="small-circle">START</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--@@@@@@@@@@@@@@@ ABOUT @@@@@@@@@@@@@@@-->
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="about__container">
+            <div class="about__group">
+              <img src="./assets/img/about.png" alt="" class="about__img" />
+
+              <div class="about__card">
+                <h3 class="about__card-title">2.500+</h3>
+                <p class="about__card-description">
+                  Supercharges placed <br />
+                  along popular routes
+                </p>
+              </div>
+            </div>
+
+            <div class="about__data">
+              <h2 class="about__title">
+                Machines With <br />
+                Future Technology
+              </h2>
+
+              <p class="about__description">
+                See the future with high-performance electric cars produced by
+                renowned brands. They feature futuristic builds and designs with
+                new and innovative platforms that last a long time.
+              </p>
+
+              <a href="#" class="btn">Know more</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--@@@@@@@@@@@@@@@ POPULAR @@@@@@@@@@@@@@@-->
+      <section class="popular section" id="popular">
+        <div class="container">
+          <h2 class="section-title">
+            Choose Your Electric Car <br />
+            Of The Porsche Brand
+          </h2>
+
+          <div class="popular__swiper swiper">
+            <div class="swiper-wrapper">
+              <div class="popular__card swiper-slide">
+                <div class="popular__shape"></div>
+
+                <h2 class="popular__title">Porsche</h2>
+                <h3 class="popular__subtitle">Turbo 5</h3>
+                <img
+                  src="./assets/img/popular1.png"
+                  alt=""
+                  class="popular__img"
+                />
+                <div class="popular__specs">
+                  <span class="popular__spec"
+                    ><i class="bx bx-timer"></i>3.7 Sec</span
+                  >
+                  <span class="popular__spec"
+                    ><i class="bx bx-tachometer"></i>365 Km/h</span
+                  >
+                  <span class="popular__spec"
+                    ><i class="bx bxs-ev-station"></i>Electric</span
+                  >
+                </div>
+
+                <h3 class="popular__price">$175.900</h3>
+
+                <button class="card-button">
+                  <i class="bx bx-shopping-bag"></i>
+                </button>
+              </div>
+              <div class="popular__card swiper-slide">
+                <div class="popular__shape"></div>
+
+                <h2 class="popular__title">Porsche</h2>
+                <h3 class="popular__subtitle">Taycan</h3>
+                <img
+                  src="./assets/img/popular2.png"
+                  alt=""
+                  class="popular__img"
+                />
+                <div class="popular__specs">
+                  <span class="popular__spec"
+                    ><i class="bx bx-timer"></i>3.7 Sec</span
+                  >
+                  <span class="popular__spec"
+                    ><i class="bx bx-tachometer"></i>365 Km/h</span
+                  >
+                  <span class="popular__spec"
+                    ><i class="bx bxs-ev-station"></i>Electric</span
+                  >
+                </div>
+
+                <h3 class="popular__price">$114.900</h3>
+
+                <button class="card-button">
+                  <i class="bx bx-shopping-bag"></i>
+                </button>
+              </div>
+              <div class="popular__card swiper-slide">
+                <div class="popular__shape"></div>
+
+                <h2 class="popular__title">Porsche</h2>
+                <h3 class="popular__subtitle">Turbo S Cross</h3>
+                <img
+                  src="./assets/img/popular3.png"
+                  alt=""
+                  class="popular__img"
+                />
+                <div class="popular__specs">
+                  <span class="popular__spec"
+                    ><i class="bx bx-timer"></i>3.7 Sec</span
+                  >
+                  <span class="popular__spec"
+                    ><i class="bx bx-tachometer"></i>365 Km/h</span
+                  >
+                  <span class="popular__spec"
+                    ><i class="bx bxs-ev-station"></i>Electric</span
+                  >
+                </div>
+
+                <h3 class="popular__price">$150.900</h3>
+
+                <button class="card-button">
+                  <i class="bx bx-shopping-bag"></i>
+                </button>
+              </div>
+              <div class="popular__card swiper-slide">
+                <div class="popular__shape"></div>
+
+                <h2 class="popular__title">Porsche</h2>
+                <h3 class="popular__subtitle">Boxster 718</h3>
+                <img
+                  src="./assets/img/popular4.png"
+                  alt=""
+                  class="popular__img"
+                />
+                <div class="popular__specs">
+                  <span class="popular__spec"
+                    ><i class="bx bx-timer"></i>3.7 Sec</span
+                  >
+                  <span class="popular__spec"
+                    ><i class="bx bx-tachometer"></i>365 Km/h</span
+                  >
+                  <span class="popular__spec"
+                    ><i class="bx bxs-ev-station"></i>Electric</span
+                  >
+                </div>
+
+                <h3 class="popular__price">$125.900</h3>
+
+                <button class="card-button">
+                  <i class="bx bx-shopping-bag"></i>
+                </button>
+              </div>
+              <div class="popular__card swiper-slide">
+                <div class="popular__shape"></div>
+
+                <h2 class="popular__title">Porsche</h2>
+                <h3 class="popular__subtitle">Cayman</h3>
+                <img
+                  src="./assets/img/popular5.png"
+                  alt=""
+                  class="popular__img"
+                />
+                <div class="popular__specs">
+                  <span class="popular__spec"
+                    ><i class="bx bx-timer"></i>3.7 Sec</span
+                  >
+                  <span class="popular__spec"
+                    ><i class="bx bx-tachometer"></i>365 Km/h</span
+                  >
+                  <span class="popular__spec"
+                    ><i class="bx bxs-ev-station"></i>Electric</span
+                  >
+                </div>
+
+                <h3 class="popular__price">$105.900</h3>
+
+                <button class="card-button">
+                  <i class="bx bx-shopping-bag"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <!--@@@@@@@@@@@@@@@ FEATURES @@@@@@@@@@@@@@@-->
+      <section class="features section">
+        <div class="container">
+          <h2 class="section-title">More Features</h2>
+
+          <div class="features__map">
+            <img src="./assets/img/map.svg" alt="" class="features__map-img" />
+
+            <div class="features__car">
+              <img
+                src="./assets/img/features.png"
+                alt=""
+                class="features__car-img"
+              />
+
+              <div class="features__card features__card-top">
+                <h3 class="features__title">880v</h3>
+                <span class="features__description">
+                  Turbo
+                  <br />
+                  Chargin
+                </span>
+              </div>
+              <div class="features__card features__card-middle">
+                <h3 class="features__title">350</h3>
+                <span class="features__description">
+                  Km
+                  <br />
+                  Range
+                </span>
+              </div>
+              <div class="features__card features__card-bottom">
+                <h3 class="features__title">480</h3>
+                <span class="features__description">
+                  Km
+                  <br />
+                  Travel
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--@@@@@@@@@@@@@@@ FEATURED @@@@@@@@@@@@@@@-->
+      <section class="featured section" id="featured">
+        <div class="container">
+          <h2 class="section-title">Featured Luxury Cars</h2>
+
+          <ul class="featured__filters">
+            <li class="featured__filter active-featured" data-filter="all">
+              <span>All</span>
+            </li>
+            <li class="featured__filter" data-filter=".tesla">
+              <img src="./assets/img/logo3.png" alt="" />
+            </li>
+            <li class="featured__filter" data-filter=".audi">
+              <img src="./assets/img/logo2.png" alt="" />
+            </li>
+            <li class="featured__filter" data-filter=".porsche">
+              <img src="./assets/img/logo1.png" alt="" />
+            </li>
+          </ul>
+
+          <div class="featured__container">
+            <div class="featured__card mix tesla">
+              <h2 class="featured__title">Tesla</h2>
+              <h4 class="featured__subtitle">Model X</h4>
+              <img
+                src="./assets/img/featured1.png"
+                alt=""
+                class="featured__img"
+              />
+              <h3 class="featured__price">$98,900</h3>
+              <button class="card-button">
+                <i class="bx bx-shopping-bag"></i>
+              </button>
+            </div>
+            <div class="featured__card mix tesla">
+              <h2 class="featured__title">Tesla</h2>
+              <h4 class="featured__subtitle">Model 3</h4>
+              <img
+                src="./assets/img/featured2.png"
+                alt=""
+                class="featured__img"
+              />
+              <h3 class="featured__price">$45,900</h3>
+              <button class="card-button">
+                <i class="bx bx-shopping-bag"></i>
+              </button>
+            </div>
+            <div class="featured__card mix audi">
+              <h2 class="featured__title">Audi</h2>
+              <h4 class="featured__subtitle">E-tron</h4>
+              <img
+                src="./assets/img/featured3.png"
+                alt=""
+                class="featured__img"
+              />
+              <h3 class="featured__price">$175,900</h3>
+              <button class="card-button">
+                <i class="bx bx-shopping-bag"></i>
+              </button>
+            </div>
+            <div class="featured__card mix porsche">
+              <h2 class="featured__title">Porsche</h2>
+              <h4 class="featured__subtitle">Boxster 987</h4>
+              <img
+                src="./assets/img/featured4.png"
+                alt=""
+                class="featured__img"
+              />
+              <h3 class="featured__price">$126,900</h3>
+              <button class="card-button">
+                <i class="bx bx-shopping-bag"></i>
+              </button>
+            </div>
+            <div class="featured__card mix porsche">
+              <h2 class="featured__title">Porsche</h2>
+              <h4 class="featured__subtitle">Panamera</h4>
+              <img
+                src="./assets/img/featured5.png"
+                alt=""
+                class="featured__img"
+              />
+              <h3 class="featured__price">$126,900</h3>
+              <button class="card-button">
+                <i class="bx bx-shopping-bag"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--@@@@@@@@@@@@@@@ OFFER @@@@@@@@@@@@@@@-->
+      <section class="offer section">
+        <div class="container">
+          <div class="offer__container">
+            <div class="offer__data">
+              <h2 class="offer__title">
+                Do You Want To Receive <br />
+                Special Offers ?
+              </h2>
+              <p class="offer__description">
+                Be the first to receive all the information about our products
+                and new cars by email by subscribing to our mailing list.
+              </p>
+              <a href="#" class="btn">Subscribe Now</a>
+            </div>
+
+            <img src="./assets/img/offer.png" alt="" class="offer__img" />
+          </div>
+        </div>
+      </section>
+
+      <!--@@@@@@@@@@@@@@@ LOGOS @@@@@@@@@@@@@@@-->
+      <section class="logos section">
+        <div class="container">
+          <div class="logos__container">
+            <img src="./assets/img/logo1.png" alt="" class="logos__img" />
+            <img src="./assets/img/logo2.png" alt="" class="logos__img" />
+            <img src="./assets/img/logo3.png" alt="" class="logos__img" />
+            <img src="./assets/img/logo4.png" alt="" class="logos__img" />
+            <img src="./assets/img/logo5.png" alt="" class="logos__img" />
+            <img src="./assets/img/logo6.png" alt="" class="logos__img" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--@@@@@@@@@@@@@@@ FOOTER @@@@@@@@@@@@@@@-->
+    <footer class="footer section">
+      <div class="footer__shape footer__shape-top"></div>
+      <div class="footer__shape footer__shape-bottom"></div>
+
+      <div class="container">
+        <div class="footer__container">
+          <div class="footer__content">
+            <a href="#" class="footer__logo">
+              <img
+                src="./assets/img/favicon.png"
+                alt=""
+                class="footer__logo-img"
+              />
+              ELCAR
+            </a>
+
+            <p class="footer__description">
+              We offer the best electric cars of <br />
+              the most recognized brands in <br />
+              the world.
+            </p>
+          </div>
+
+          <div class="footer__content">
+            <h3 class="footer__title">Company</h3>
+            <ul class="footer__list">
+              <li>
+                <a href="#" class="footer__link">About</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Cars</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">History</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Shop</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__content">
+            <h3 class="footer__title">Information</h3>
+            <ul class="footer__list">
+              <li>
+                <a href="#" class="footer__link">request a quote</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Find a dealer</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Contact us</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Services</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__content">
+            <h3 class="footer__title">Follow us</h3>
+            <div class="footer__social">
+              <a
+                href="https://twitter.com/"
+                target="_blank"
+                class="footer__social-link"
+                ><i class="bx bxl-twitter"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="footer__social-link"
+                ><i class="bx bxl-instagram"></i
+              ></a>
+              <a
+                href="https://web.whatsapp.com/"
+                target="_blank"
+                class="footer__social-link"
+                ><i class="bx bxl-whatsapp"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="footer__copy">
+        &copy; 2022 coded by
+        <a href="https://github.com/soroushmdn" target="_blank"
+          >Soroush Karimi.</a
+        >
+        <br />design from Bedimcode youtube channel.
+      </p>
+    </footer>
+
+    <!--@@@@@@@@@@@@@@@ SCROLL UP @@@@@@@@@@@@@@@-->
+    <a href="#" class="scrollup" id="scrollup">
+      <i class="bx bx-up-arrow-alt"></i>
+    </a>
+
+    <!-- @@@@@@@@@@@@@@@@@@ swiperjs.com @@@@@@@@@@@@@@@@@@ -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+
+    <!--@@@@@@@@@@@@@@@@@@@@ kunkalabs.com/mixitup/ @@@@@@@@@@@@@@@@@@@@-->
+    <script src="./assets/js/mixitup.min.js"></script>
+
+    <!-- @@@@@@@@@@@@@@@ scrollrevealjs.org @@@@@@@@@@@@@@@ -->
+    <script src="./assets/js/scrollreveal.min.js"></script>
+
+    <!-- @@@@@@@@@@@@@@@ Main JS @@@@@@@@@@@@@@@ -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
