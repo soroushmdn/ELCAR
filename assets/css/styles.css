@@ -406,6 +406,7 @@ button {
   width: 280px;
   display: grid;
   gap: 0.2rem;
+  margin: 0 auto;
 }
 
 .popular__card:hover .popular__img {
