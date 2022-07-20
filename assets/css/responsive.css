@@ -38,7 +38,7 @@
   }
 }
 
-@media (max-width: 765px) {
+@media (max-width: 767px) {
   .nav__toggle,
   .nav__close {
     display: inline-flex;
@@ -258,5 +258,34 @@
 
   .footer__copy {
     margin-top: 5rem;
+  }
+}
+
+@media (max-width: 374px) {
+  .container {
+    width: calc(100% - 2rem);
+  }
+
+  /*@@@@@@@@@@@@@@ HOME @@@@@@@@@@@@@@*/
+  .home__title {
+    font-size: 1.7rem;
+  }
+
+  /*@@@@@@@@@@@@@@ FEATURES @@@@@@@@@@@@@@*/
+
+  .features__car {
+    top: 2rem;
+  }
+
+  /*@@@@@@@@@@@@@@ FEATURED @@@@@@@@@@@@@@*/
+
+  .featured__container {
+    grid-template-columns: 280px;
+  }
+
+  /*@@@@@@@@@@@@@@ OFFER @@@@@@@@@@@@@@*/
+
+  .offer__img {
+    width: 370px;
   }
 }
