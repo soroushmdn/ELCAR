@@ -85,6 +85,12 @@ button {
 
 /* @@@@@@@@@@@@@@@ CSS REUSABLE CLASSES @@@@@@@@@@@@@@@ */
 
+.container {
+  max-width: 1200px;
+  width: calc(100% - 3rem);
+  margin: 0 auto;
+}
+
 .section {
   padding: 7rem 0 2rem;
 }
@@ -93,12 +99,6 @@ button {
   font-size: var(--h2-font-size);
   text-align: center;
   margin-bottom: 3rem;
-}
-
-.container {
-  max-width: 1200px;
-  width: calc(100% - 3rem);
-  margin: 0 auto;
 }
 
 .btn {
@@ -318,7 +318,7 @@ button {
   height: 110px;
   border: 3px solid hsl(158, 90%, 30%);
   box-shadow: 0 0 20px hsl(158, 90%, 30%);
-  animation: startButton 2s infinite ease-in-out;
+  animation: startButton 2s infinite linear;
 }
 
 @keyframes startButton {
@@ -743,9 +743,9 @@ button {
 }
 
 .footer__copy {
-  margin-top: 7rem;
-  font-size: var(--tiny-font-size);
+  margin-top: 5rem;
   text-align: center;
+  font-size: 0.6rem;
 }
 
 .footer__copy a {
@@ -779,6 +779,7 @@ button {
 }
 
 /*@@@@@@@@@@@@@@ SCROLL BAR @@@@@@@@@@@@@@*/
+
 ::-webkit-scrollbar {
   width: 0.6rem;
   background-color: hsl(219, 4%, 15%);
