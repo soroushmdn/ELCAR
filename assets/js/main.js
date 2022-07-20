@@ -1,3 +1,12 @@
+//  @@@@@@@@@@@@@@@@@@ PRELOADER @@@@@@@@@@@@@@@@@@
+onload = () => {
+  const preloader = document.getElementById('preloader');
+
+  setTimeout(() => {
+    preloader.style.display = 'none';
+  }, 2500);
+};
+
 /*@@@@@@@@@@@@@@ show menu @@@@@@@@@@@@@@*/
 
 const navMenu = document.getElementById('nav-menu'),
@@ -47,15 +56,6 @@ function scrollUp() {
     scrollUp.classList.remove('show-scrollup');
   }
 }
-
-//  @@@@@@@@@@@@@@@@@@ PRELOADER @@@@@@@@@@@@@@@@@@
-onload = () => {
-  const preloader = document.getElementById('preloader');
-
-  setTimeout(() => {
-    preloader.style.display = 'none';
-  }, 2500);
-};
 
 //  @@@@@@@@@@@@@@@@@@ swiperjs.com @@@@@@@@@@@@@@@@@@
 
